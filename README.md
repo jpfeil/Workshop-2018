@@ -168,28 +168,23 @@ We are going to use numpy to perform some basic linear algebra calculations and 
 ### Pandas
 The second library I want to show is called pandas. Pandas provides a dataframe object that is very useful for data analysis. If you are familiar with R, then you have likely interacted with a similar kind of object. You can think of a dataframe as a large table where the rows and columns have labels. The row labels are referred to as the index and the column labels are referred to as columns. Let's create an empty dataframe in the next cell by typing this line:
 
-`
+```
 import pandas as pd
 
 df = pd.DataFrame(index=['a', 'b', 'c'], columns=[1, 2, 3])
-`
+```
 
 You can fill in the dataframe by accessing specific rows, columns, or cells. For example, you
 can fill the entire column with a single value by using hard-brackets.
 
-`
-df[1] = 'alpha'
-``
+`df[1] = 'alpha'`
 
 You can fill in a specific row using
-`
-df.loc['b', :] = 'beta'
+`df.loc['b', :] = 'beta'`
 
 Likewise, you can fill specific cells using the loc operator
 
-`
-df.loc['c', 3] = 'gamma'
-`
+`df.loc['c', 3] = 'gamma'`
 
 Download the Treehouse gene expression compendium:
 https://xena.treehouse.gi.ucsc.edu/download/TreehousePEDv5_unique_hugo_log2_tpm_plus_1.2018-05-09.tsv
