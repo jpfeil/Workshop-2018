@@ -72,21 +72,23 @@ As you can see it has some very basic interactive features. You can execute a li
 ### Write a hello-world function (2.5 min)
 Write a hello-world function
 
-`def hello_world():
+```
+def hello_world():
 	print("Hello, world!")
 
 hello_world()
+```
 
 ## Install iPython (5 min)
 The tools that come out of the box with python are very basic, but there have been several tools recently developed that make scientific computing with python much more convenient. The next tool I want to share with you is a more interactive form of python called iPython. IPython is only a slight improvement, but it is convenient for simple tasks. Let's start an instance of ipython and see how it is different than the python REPL.
 
 ### Write a hello-world function in ipython (2.5 min)
-`
+```
 def hello_world():
 	print("Hello, world!")
 
 hello_world()
-`
+```
 
 I think Ipython is helpful because it allows you to use bash commands so that you can interact with the filesystem more easily.
 
@@ -111,7 +113,8 @@ Start a jupyter session by typing `jupyter notebook` in the terminal or Command 
 
 ### Documentation (5 min)
 You can use the Markdown language to document your Jupyter notebook. Markdown is a simple language for formatting text. Here are a few commonly used features:
-`Headers:
+```
+Headers:
  # - is the largest header
  ## - is a slightly smaller header
  ### - you get the idea...
@@ -123,17 +126,18 @@ You can use the Markdown language to document your Jupyter notebook. Markdown is
  Numbered List
  1.
  2.
-`3.
+ 3.
+ ...
 
  Code
  Back tick
  ...
-`
+```
 
 ### Writing Python Code
 You can execute the code in each cell out of order, but the state is shared across cells. So, variables you instantiate in one cell will be available in other cells. This is a huge source of bugs, so be careful with how you name variables because you may be modifying a variable unknowingly.
 
-Let's write the hello-world function again. To execute the cell you can either press the run button at the top of the notebook (the play button) or type shift-enter on your keyboard. This should print Hello, world to the jupyter notebook. 
+Let's write the hello-world function again. To execute the cell you can either press the run button at the top of the notebook (the play button) or type shift-enter on your keyboard. This should print Hello, world to the jupyter notebook.
 
 Jupyter notebooks are very useful for research because you can document your work next to your code. This allows for reproducible results and keeps your research projects moving forward. I highly recommend creating a notebook for each research task you begin. Organizing many jupyter notebooks in a git repo and backing up the notebooks to github is a great way to make progress on your research. It is also easy to share notebooks with collaborators this way. One caveat is that some of the git features will get confused with jupyter notebooks, so do not try to merge notebooks using git. If you need to pull changes into a git repo, merge the entire notebook at a time.
 
@@ -187,13 +191,43 @@ Likewise, you can fill specific cells using the loc operator
 df.loc['c', 3] = 'gamma'
 `
 
-Download the Treehouse gene expression compendium<https://xena.treehouse.gi.ucsc.edu/download/TreehousePEDv5_unique_hugo_log2_tpm_plus_1.2018-05-09.tsv>.
+Download the Treehouse gene expression compendium:
+https://xena.treehouse.gi.ucsc.edu/download/TreehousePEDv5_unique_hugo_log2_tpm_plus_1.2018-05-09.tsv
 
+#### Exercise:
+1. Go to the notebooks/pandas.ipynb notebook and follow the instructions.
+
+### Matplotlib
+All of the information is in the jupyter notebook, so after a brief presentation
+you can proceed to the notebook.
+
+#### Exercise:
+1. Go to the notebooks/matplotlib.ipynb notebook and follow the instructions.
+
+### Seaborn
+All of the information is in the jupyter notebook, so after a brief presentation
+you can proceed to the notebook.
+
+### Exercise:
+1. Go to the notebooks/seaborn.ipynb notebook and follow the instructions.
 
 ## For tomorrow!
 You will need to have a github, pycharm, dockerhub, and rosalind accounts for tomorrow. Please go to these websites and create logins so that we don't have to use up too much time tomorrow. Let me know if you have trouble making an account.
 
 https://github.com
+
 https://www.jetbrains.com/pycharm/
+- apply for a student account or download the community edition
+
 https://hub.docker.com/
+
+You also need to install docker
+Windows instructions:
+https://store.docker.com/editions/community/docker-ce-desktop-windows
+
+Mac instructions:
+https://store.docker.com/editions/community/docker-ce-desktop-mac
+
 http://rosalind.info/problems/locations/
+
+Tomorrow we will work through the README in the rosalind directory.

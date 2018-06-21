@@ -34,3 +34,23 @@
 
 
 # Outline for Workshop Day 2
+
+## Pycharm
+1. Background
+2. Activity
+
+## Argparse
+1. Background
+2. Activity
+
+## Rosalind
+1. Background
+2. Activity
+
+## Git
+1. Background
+2. Activity
+
+## Docker
+1. Background
+2. Activity
