@@ -62,7 +62,7 @@ You will likely install a lot of software during your research career. Software 
 We will be using the python programming language in this workshop. Conda comes with its own installation of python. The conda installation should have modified your path so that the conda python version is used instead of your system version. Python includes a read execute print loop (REPL) tool. You can access this by typing python in the command prompt.
 
 ### Windows
-Open the command prompt window by going to the start menu and then the All Programs menu and then the Accessories section. Select the Command Prompt option. Type python and hit enter.
+Open the command prompt window by going to the start menu and then the All Programs menu and then the Accessories section. Select the Command Prompt option. Type `python` and hit enter.
 
 ### Mac /Linux
 Select the Go menu at the top of your desktop. Click utilities and then select terminal. Now type `python` and hit return.
@@ -80,7 +80,7 @@ hello_world()
 ```
 
 ## Install iPython (5 min)
-The tools that come out of the box with python are very basic, but there have been several tools recently developed that make scientific computing with python much more convenient. The next tool I want to share with you is a more interactive form of python called iPython. IPython is only a slight improvement, but it is convenient for simple tasks. Let's start an instance of ipython and see how it is different than the python REPL.
+The tools that come out of the box with python are very basic, but there have been several tools recently developed that make scientific computing with python much more convenient. The next tool I want to share with you is a more interactive form of python called iPython. IPython is only a slight improvement, but it is convenient for simple tasks. Let's start an instance of ipython and see how it is different than the python REPL. Starting ipython is very similar to running python, you just type `ipython` at the terminal/command prompt
 
 ### Write a hello-world function in ipython (2.5 min)
 ```
@@ -185,9 +185,6 @@ You can fill in a specific row using
 Likewise, you can fill specific cells using the loc operator
 
 `df.loc['c', 3] = 'gamma'`
-
-Download the Treehouse gene expression compendium:
-https://xena.treehouse.gi.ucsc.edu/download/TreehousePEDv5_unique_hugo_log2_tpm_plus_1.2018-05-09.tsv
 
 #### Exercise:
 1. Go to the notebooks/pandas.ipynb notebook and follow the instructions.
