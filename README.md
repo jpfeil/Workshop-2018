@@ -58,6 +58,10 @@ You will likely install a lot of software during your research career. Software 
 3. Run bash Miniconda3-latest-MacOSX-x86_64.sh
 4. Follow the prompts on the installer screen
 
+### Download data
+Download cast.csv to the data directory:
+https://drive.google.com/file/d/0ByHO8wS-fc8HTFJpZDE0T3RBcG8/view?usp=sharing
+
 ## Python
 We will be using the python programming language in this workshop. Conda comes with its own installation of python. The conda installation should have modified your path so that the conda python version is used instead of your system version. Python includes a read execute print loop (REPL) tool. You can access this by typing python in the command prompt.
 
