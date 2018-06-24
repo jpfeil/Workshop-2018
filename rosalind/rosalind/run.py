@@ -4,7 +4,7 @@ import argparse
 
 def DNA(input, output):
     """
-    Solves the first rosalind problem
+    Solves the first rosalind problem (add more details...)
 
     :param input: Path to input file
     :param output: Path to output file
